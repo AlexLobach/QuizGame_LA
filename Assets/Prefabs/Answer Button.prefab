@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 524831846116613910}
   - component: {fileID: 524831846116613909}
   - component: {fileID: 524831846116613908}
+  - component: {fileID: 8757351407035291555}
+  - component: {fileID: -8309307984698744653}
   - component: {fileID: 524831846116613911}
-  - component: {fileID: 2349257459211496160}
-  - component: {fileID: 7844592373345920580}
   m_Layer: 5
   m_Name: Answer Button
   m_TagString: Untagged
@@ -125,20 +125,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &524831846116613911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524831846116613906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 462b9147f49e463e82fb8273bdc6eb7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  answerText: {fileID: 524831847479255051}
---- !u!114 &2349257459211496160
+--- !u!114 &8757351407035291555
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -154,7 +141,7 @@ MonoBehaviour:
   holdScale: 0.8
   releseScale: 1.2
   durationEffect: 0.3
---- !u!114 &7844592373345920580
+--- !u!114 &-8309307984698744653
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -163,13 +150,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 524831846116613906}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c5d7784753da6c4bae801fe786b059c, type: 3}
+  m_Script: {fileID: 11500000, guid: 864b0492df078904f85235a2dbe38332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   use: 1
-  amplitude: 50
-  durationEffect: 0.2
-  durationPause: 0.3
+--- !u!114 &524831846116613911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524831846116613906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 462b9147f49e463e82fb8273bdc6eb7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  answerText: {fileID: 524831847479255051}
 --- !u!1 &524831847479255049
 GameObject:
   m_ObjectHideFlags: 0
