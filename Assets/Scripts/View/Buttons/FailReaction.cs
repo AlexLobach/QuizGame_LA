@@ -17,15 +17,10 @@ namespace View
         private Tween currentTween;
         private Vector3 punchPosition;
 
-
-
-
-
         void Awake()
         {
             punchPosition = new Vector3 (20,0,0) ;
         }
-
         
         public void Notify(bool correct)
         {
